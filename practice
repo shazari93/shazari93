@@ -1,0 +1,9 @@
+CREATE TABLE shoes
+(
+ID Char(10) Primary Key,
+Brand Char(250) Not null,
+Type Char (250) Not null,
+Color Char (250) Not null,
+Price Decimal (8,2) Not null,
+Desc Varchar(850) Null 
+);
